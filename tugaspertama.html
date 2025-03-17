@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive CSS</title>
+    <style>
+      * {
+        text-align: center;
+      }
+      @media screen and (min-width: 100px) {
+        body {
+          background: #db5730;
+          color: black;
+          font-size: 22px;
+        }
+        .item {
+          color: white;
+        }
+        .item img {
+          height: 100px;
+          width: 100px;
+        }
+      }
+      @media screen and (min-width: 700px) {
+        body {
+          background: #db9330;
+          color: black;
+          font-size: 50px;
+        }
+        .item {
+          color: green;
+        }
+        .item img {
+          height: 150px;
+          width: 150px;
+        }
+      }
+      @media screen and (min-width: 850px) {
+        body {
+          background: #dc7431;
+          color: black;
+          font-size: 70px;
+        }
+        .item {
+          color: purple;
+        }
+        .item img {
+          height: 200px;
+          width: 200px;
+        }
+      }
+      @media screen and (min-width: 1000px) {
+        body {
+          background: #dba830;
+          color: black;
+          font-size: 100px;
+        }
+        .item {
+          color: #dbce4d;
+        }
+        .item img {
+          height: 250px;
+          width: 250px;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        body {
+          background: #dba179;
+          color: black;
+          font-size: 110px;
+        }
+        .item {
+          color: black;
+        }
+        .item img {
+          height: 300px;
+          width: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        Mountain blue <br /><img src="iStock-157644719.jpg" alt="Image" />
+      </div>
+    </div>
+  </body>
+</html>
